@@ -216,7 +216,7 @@ dl h3
 
     .litcontainer div {
         padding: 0px 20px;
-        max-height: 1200px;
+        max-height: 800px;
         overflow-y: auto;
         
     }
@@ -228,14 +228,26 @@ dl h3
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #e07a5f;
-    height: 10px; 
+    background: rosybrown;
+    border-radius: 10px;
   }
+
+  .hiscontainer{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+  }
+
+  .hiscontainer div {
+    padding: 0px 20px;
+    max-height: 800px;
+    overflow-y: auto;
     
+}
 }
 
